@@ -30,6 +30,13 @@
     .nombre-sitio{
         font-size: 5rem;
     }
+    .nombre-sitio {
+        line-height: 5rem; /* Ajustar la línea de altura para el elemento h1 */
+      }
+      
+    .nombre-sitio span {
+        line-height: inherit; /* Heredar la línea de altura del elemento h1 para el span */
+    }
 }
 .nombre-sitio span{
     font-weight: 900;
@@ -112,11 +119,14 @@
 .slogan h1 {
     font-size: 3rem;
     margin: 0;
+    margin-bottom: 2rem;
 }
 @media (min-width: 768px) {
     .slogan h1{
         font-size: 5rem;
+        margin-bottom: 3rem;
     }
+    
 }
 .slogan p {
     margin: 0;

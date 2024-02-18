@@ -15,6 +15,9 @@
     background-color: var(--blanco);
     padding: 5rem;
 }
+.contenido-nosotros h2{
+    line-height: 4rem;
+}
 @media (min-width: 992px) {
     .contenido-nosotros{
         grid-column: 2 / 4;
