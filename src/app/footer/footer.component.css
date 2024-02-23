@@ -1,0 +1,106 @@
+.nombre-sitio{
+    font-weight: 300;
+    text-align: center;
+    font-size: 3rem;
+}
+@media (min-width: 768px) {
+    .nombre-sitio{
+        font-size: 5rem;
+    }
+    .nombre-sitio {
+        line-height: 5rem; /* Ajustar la línea de altura para el elemento h1 */
+      }
+      
+    .nombre-sitio span {
+        line-height: inherit; /* Heredar la línea de altura del elemento h1 para el span */
+    }
+}
+.nombre-sitio span{
+    font-weight: 900;
+}
+@media (min-width: 768px) {
+    .barra{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }   
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width: 768px) {
+    .contacto{
+        align-items: flex-end;
+    }
+}
+
+.telefono{
+    display: flex;
+}
+
+.telefono::before{
+    content: '';
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    background-image: url(../../assets/img/telefono.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 1rem;
+}
+.footer a {
+    color: var(--blanco);
+    font-size: 2rem;
+}
+.navegacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+    .navegacion{
+        flex-direction: row;
+    }
+}
+.navegacion a {
+    padding: .5rem;
+    transition: background-color 300ms;
+    width: 100%;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .navegacion a{
+        padding: 1rem 2rem;
+    }
+}
+.navegacion a:hover {
+    background-color: rgb( 255 255 255 / .5);
+    color: var(--negro);
+}
+
+
+
+.footer{
+    height: 50rem;
+    background-image: url(../../assets/img/footer_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: var(--blanco);
+}
+
+.copyright{
+    background-color: var(--negro);
+    text-align: center;
+    margin: 2rem 0 0 0;
+    padding: 1rem;
+}

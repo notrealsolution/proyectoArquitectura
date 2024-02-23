@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.component';
 import { ModeloComponent } from './modelo/modelo.component';
 import { GaleriaComponent } from './galeria/galeria.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { GaleriaComponent } from './galeria/galeria.component';
     HeaderComponent,
     SobreNosotrosComponent,
     ModeloComponent,
-    GaleriaComponent
+    GaleriaComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
